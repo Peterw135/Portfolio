@@ -32,7 +32,7 @@ export default function Projects() {
                 />
                 <ProjectCard 
                     title="Garp"
-                    description="Good reads for research papers."
+                    description="Project for HackGT X. Developed a social media platform similar to Goodreads for research papers."
                     link="https://github.com/kvnshu/garp.git"
                 />
                 <ProjectCard 
