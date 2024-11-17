@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 export default function Navbar() {
   return (
     <nav className="bg-white p-4 font-sans">
-        <div className = "flex justify-center">
+        <div className = "flex sm:justify-center justify-between">
             <div className = "text-base flex space-x-12 font-medium text-gray-600">
                 <Link href="/" className="border-b-2 border-transparent hover:text-black px-1 hover:border-gray-300 py-2 transition-colors">Home</Link>
                 <Link href="/projects" className="border-b-2 border-transparent hover:text-black px-1 hover:border-gray-300 py-2 transition-colors">Projects</Link>
