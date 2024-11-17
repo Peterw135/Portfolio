@@ -13,10 +13,10 @@ export default function Navbar() {
         </div>
 
         <div className = "right-4 top-4 absolute flex space-x-4">
-            <Link href="https://github.com/Peterw135" className="text-gray-400 hover:text-black transition-colors">
+            <Link href="https://github.com/Peterw135" className="text-gray-400 hover:text-black transition-colors" target="_blank" rel="noopener noreferrer">
                 <FaGithub size={30}/>
             </Link>
-            <Link href="https://linkedin.com/in/your-profile" className="text-gray-400 hover:text-black transition-colors">
+            <Link href="https://linkedin.com/in/your-profile" className="text-gray-400 hover:text-black transition-colors" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin size={30}/>
             </Link>
         </div>
