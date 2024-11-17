@@ -4,7 +4,7 @@ export default function Projects() {
     return (
         <div className="h-[calc(100vh-80px)] flex items-center justify-center">
             <div className="max-w-6xl p-8 m-auto">
-            <div className="grid grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <ProjectCard 
                     title="Breast Cancer Detection [WIP]"
                     description="Utilizing PyTorch and CNN to classify breast cancer as benign or malignant based on mammogram features. Check below for more details."
@@ -34,21 +34,6 @@ export default function Projects() {
                     title="Garp"
                     description="Project for HackGT X. Developed a social media platform similar to Goodreads for research papers."
                     link="https://github.com/kvnshu/garp.git"
-                />
-                <ProjectCard 
-                    title="More Projects"
-                    description="Coming Soon"
-                    link=""
-                />
-               <ProjectCard 
-                    title="More Projects"
-                    description="Coming Soon"
-                    link=""
-                />
-                <ProjectCard 
-                    title="More Projects"
-                    description="Coming Soon"
-                    link=""
                 />
             </div>
         </div>
