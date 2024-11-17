@@ -6,9 +6,9 @@ export default function Navbar() {
     <nav className="bg-white p-4 font-sans">
         <div className = "flex justify-center">
             <div className = "text-base flex space-x-12 font-medium text-gray-600">
-                <Link href="/" className="hover:border-b-2 hover:text-black hover:border-gray-300 px-1 py-2 transition-colors">Home</Link>
-                <Link href="/projects" className="hover:border-b-2 hover:text-black px-1 py-2 transition-colors">Projects</Link>
-                <Link href="/contact" className="hover:border-b-2 hover:text-black hover:border-gray-300 px-1 py-2 transition-colors">Contact</Link>
+                <Link href="/" className="border-b-2 border-transparent hover:text-black px-1 hover:border-gray-300 py-2 transition-colors">Home</Link>
+                <Link href="/projects" className="border-b-2 border-transparent hover:text-black px-1 hover:border-gray-300 py-2 transition-colors">Projects</Link>
+                <Link href="/contact" className="border-b-2 border-transparent hover:text-black px-1 hover:border-gray-300 py-2 transition-colors">Contact</Link>
             </div>
         </div>
 

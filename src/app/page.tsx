@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center px-12">
+    <main className="flex h-[calc(100vh-80px)] items-center px-12 overflow-hidden">
       <div className="max-w-3xl">
         <h1 className="text-5xl font-bold tracking-tight">
           Computer Science Student, Aspiring Software Engineer

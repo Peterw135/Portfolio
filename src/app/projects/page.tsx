@@ -2,7 +2,7 @@ import ProjectCard from "@/components/ProjectCard";
 
 export default function Projects() {
     return (
-        <div className="min-h-screen flex items-center justify-center">
+        <div className="h-[calc(100vh-80px)] flex items-center justify-center">
             <div className="max-w-6xl p-8 m-auto">
             <div className="grid grid-cols-3 gap-6">
                 <ProjectCard 
