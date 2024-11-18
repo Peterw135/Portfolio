@@ -5,6 +5,7 @@ export default function Projects() {
     return (
         <div className="h-[calc(100vh-80px)] flex items-center justify-center">
             <div className="max-w-6xl p-8 m-auto">
+            <h1 className="text-2xl font-bold">Stuff I Built</h1>
                 <AnimatedGroup
                     className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
                     variants={{
@@ -31,8 +32,8 @@ export default function Projects() {
                             },
                         },
                     }}
-                >
-                    <ProjectCard 
+                >   
+                    <ProjectCard
                         title="Breast Cancer Detection [WIP]"
                         description="Utilizing PyTorch and CNN to classify breast cancer as benign or malignant based on mammogram features. Check below for more details."
                         link="https://github.gatech.edu/pages/skorkaya6/mlgroup12/"

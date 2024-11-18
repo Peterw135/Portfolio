@@ -3,7 +3,7 @@ import { FaLink } from "react-icons/fa";
 export default function ProjectCard({ title, description, link }: { title: string; description: string; link: string }) {
 
     return (
-      <div className="bg-gray-50 rounded-lg flex flex-col px-8 py-4">
+      <div className="bg-gray-50 rounded-lg flex flex-col px-8 py-4 h-full">
         <h3 className="font-bold">{title}</h3>
         <p className="text-gray-500 my-2">{description}</p>
         <div className="mt-auto"></div>
