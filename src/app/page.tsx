@@ -46,7 +46,7 @@ export default function Home() {
                 <p>My first time programming was in high school when my high school first introduced a programming class. At first I didnt enjoy programming 
                   because we worked with Turtle code which I thought was boring. Over COVID-19, I kept seeing articles about how Machine Learning was accelerating
                   our development of the vaccine and I realized that coding was more than just turtle code. Later on I also learned about the world of sneaker reselling
-                  and how people were using software to increase their chance of getting a limited shoe.I tried creating my own software but realized that it was more than 
+                  and how people were using software to increase their chance of getting a limited shoe. I tried creating my own software but realized that it was more than 
                   just writing scripts as there are anti-bot measures in place. As someone who was undecided on their major at the time, I realized that Computer Science
                   was the field I wanted to pursue.
                 </p>

@@ -45,7 +45,7 @@ export default function Projects() {
                     />
                     <ProjectCard 
                         title="Personal Website"
-                        description="Website to showcase my portfolio. Built with Next.js and Tailwind CSS"
+                        description="Built with Next.js, Typescript, and Tailwind CSS. Animations with Framer Motion and Motion Primitives."
                         link="https://github.com/Peterw135/Portfolio.git"
                     />
                     <ProjectCard 
