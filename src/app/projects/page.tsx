@@ -55,7 +55,7 @@ export default function Projects() {
                     />
                     <ProjectCard 
                         title="Android Frogger"
-                        description="Class Project for CS2340.Recreated the classic Frogger game using Android Studio."
+                        description="Class Project for CS2340. Recreated the classic Frogger game using Android Studio."
                         link="https://github.com/Peterw135/Frogger.git"
                     />
                     <ProjectCard 
